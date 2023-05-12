@@ -48,9 +48,9 @@ Local Setup Steps [BackEnd-Frontend]
 [Before local setup]
 1.Mongo database setup on local and URL set on backend env file.
 
-$ git clone https://github.com/developer-1997/node-boilerplate-with-graphql
-$ cd bnode-boilerplate-with-graphql
-$ npm install --force
-$ npm run dev
+- git clone https://github.com/developer-1997/node-boilerplate-with-graphql
+- cd bnode-boilerplate-with-graphql
+- npm install --force
+- npm run dev
 
 —----------------------------------------------------------------------------------------------------------------------------
