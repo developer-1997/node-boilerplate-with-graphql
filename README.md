@@ -1,4 +1,4 @@
-## Boilerplate For Node.js And React With Graph
+## Boilerplate For Node.js With Graph
 
 Source Code:
 
