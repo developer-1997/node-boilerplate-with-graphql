@@ -16,6 +16,8 @@ const corsOptions = {
     "https://studio.apollographql.com",
     "http://localhost:8000",
     "http://localhost:3000",
+    "https://boilerplate-frontent.onrender.com" ,
+    "*"
   ],
   credentials: true,
 };
