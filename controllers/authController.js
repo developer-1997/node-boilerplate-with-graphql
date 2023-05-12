@@ -119,7 +119,7 @@ exports.forgetPassword = async (parent, { input: { email } }, { req, res }) => {
 
   const resetToken = user.createPasswordResetToken();
 
-  const resetUrl = `http://localhost:3000/forgotPassword?token=${resetToken}`;
+  const resetUrl = `https://boilerplate-frontent.onrender.com/forgotPassword?token=${resetToken}`;
 
   const message = `Forget your password?Submit a patch request with new password and passwordConfirm to: ${resetUrl}.\n If you don't forget password then please ignore email.`;
 
