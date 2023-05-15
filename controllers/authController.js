@@ -139,6 +139,7 @@ exports.forgetPassword = async (parent, { input: { email } }, { req, res }) => {
       resetToken,
     };
   } catch (err) {
+    console.log(err)
     user.passwordResetToken = undefined;
     user.passwordResetExpires = undefined;
     user.save({ validateBeforeSave: false });
